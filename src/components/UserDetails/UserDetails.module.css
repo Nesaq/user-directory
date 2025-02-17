@@ -1,0 +1,65 @@
+.userDetails {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.userDetails h2 {
+  margin: 0 0 1.5rem 0;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.info {
+  margin-bottom: 2rem;
+}
+
+.info p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.section h3 {
+  color: #444;
+  margin: 0 0 0.5rem 0;
+}
+
+.section p {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+.noUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #666;
+}
+
+.profileButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #0070f3;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.profileButton:hover {
+  background-color: #005bb5;
+}
